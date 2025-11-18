@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-PlusJakartaSans :  font-family: "Plus Jakarta Sans", sans-serif;
+  --color-Lime: hsl(61, 70%, 52%);
+  --color-LightLime: hsla(60, 100%, 96%, 0.966);
+  --color-LightLime300: hsla(60, 100%, 80%, 0.952);
+  --color-Red: hsl(4, 69%, 50%);
+  --color-White: hsl(0, 0%, 100%);
+  --color-Slate100: hsl(202, 86%, 94%);
+  --color-Slate300: hsl(203, 41%, 72%);
+  --color-Slate500: hsl(200, 26%, 54%);
+  --color-Slate700: hsl(200, 24%, 40%);
+  --color-Slate900: hsl(202, 55%, 16%);
+  --color-DarkSlate: hsl(202, 51%, 10%);
+}
+
+body{
+  @apply font-PlusJakartaSans;
+}
+.light-lime{
+  background-color: hsla(60, 100%, 80%, 0.952);
+
+}
