@@ -12,12 +12,11 @@ export default function RightSideComponents({
 
       {(monthlyRepayment > 0) & (totalRepayment > 0) ? (
         <>
-          (<ResultDescription />
+          <ResultDescription />
           <RepaymentResult
             monthlyRepayment={monthlyRepayment}
             totalRepayment={totalRepayment}
           />
-          )
         </>
       ) : null}
     </div>
