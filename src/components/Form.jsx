@@ -57,7 +57,7 @@ function MortgageAmount({ mortgageAmount, setMortgageAmount, error }) {
         <span
           className={`${bgColor}  p-[0.9rem] font-bold text-[1.2rem] absolute mt-[0.5rem] ml-[0.18rem] rounded-l-[0.5rem] text-Slate700 `}
         >
-          $
+          £
         </span>
         <input
           className={`w-full bg-transparent border-Slate500 border-[0.14rem] px-[4rem] py-[0.7rem] text-Slate900 mt-2 rounded-[0.5rem] text-[1.5rem] font-semibold outline-Lime  outline-${error}`}

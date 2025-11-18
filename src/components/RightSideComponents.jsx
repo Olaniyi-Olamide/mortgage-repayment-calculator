@@ -46,14 +46,14 @@ function RepaymentResult({ monthlyRepayment, totalRepayment }) {
           Your monthly repayments
         </p>
         <h1 className="text-Lime text-[2.5rem] font-bold">
-          ${monthlyRepayment}
+          £{monthlyRepayment}
         </h1>
         <span className="bg-Slate900 h-[0.1px] brightness-200"></span>
         <p className="text-Slate300 text-[1.15rem] font-semibold">
           Total you'll repay over the term
         </p>
         <h2 className="text-White text-[2rem] font-semibold">
-          ${totalRepayment}
+          £{totalRepayment}
         </h2>
       </div>
     </>
