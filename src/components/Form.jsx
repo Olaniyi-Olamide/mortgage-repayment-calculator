@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { IconCalculator } from "../assets/images/icon-calculator.svg";
 export default function Form({
   mortgageAmount,
   setMortgageAmount,
@@ -220,7 +220,7 @@ function MortgageType({
 function CalculateRepayment() {
   return (
     <button className="bg-Lime rounded-[2rem] p-[0.7rem] w-full md:w-[100%] lg:w-[70%] text-Slate900 font-bold text-[1.15rem] md:text-[1rem] lg:text-[1.15rem] flex items-center justify-center gap-[1rem] mt-[1.5rem]">
-      <img src="src\assets\images\icon-calculator.svg" alt="" />
+      <img src={IconCalculator} alt="icon-calculator" />
       Calculate Repayment
     </button>
   );

@@ -1,3 +1,5 @@
+import { IllustrationEmpty } from "../assets/images/illustration-empty.svg";
+
 export default function RightSideComponents({
   monthlyRepayment,
   totalRepayment,
