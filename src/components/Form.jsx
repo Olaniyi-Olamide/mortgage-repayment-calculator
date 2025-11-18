@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IconCalculator } from "../assets/images/icon-calculator.svg";
+import IconCalculator from "../assets/images/icon-calculator.svg";
 export default function Form({
   mortgageAmount,
   setMortgageAmount,

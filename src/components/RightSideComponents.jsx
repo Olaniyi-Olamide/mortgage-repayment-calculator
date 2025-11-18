@@ -1,4 +1,4 @@
-import { IllustrationEmpty } from "../assets/images/illustration-empty.svg";
+import IllustrationEmpty from "../assets/images/illustration-empty.svg";
 
 export default function RightSideComponents({
   monthlyRepayment,
@@ -64,10 +64,7 @@ function RepaymentResult({ monthlyRepayment, totalRepayment }) {
 function EmptyResult() {
   return (
     <div className="flex flex-col items-center justify-center gap-[1rem] md:py-[3rem]">
-      <img
-        src="src\assets\images\illustration-empty.svg"
-        alt="illustration-empty"
-      />
+      <img src={IllustrationEmpty} alt="illustration-empty" />
 
       <h2 className="text-White text-[2rem] font-semibold">
         Results shown here
